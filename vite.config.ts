@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   plugins: [vue(), vueJsx(), vueDevTools()],
-  base: '/',
+  base: 'https://pymeshub.github.io/jesus-birthday-meme-coin/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src/', import.meta.url)),
